@@ -25,8 +25,11 @@
             "styles": [
               "src/styles.css",
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
+
             ],
-            "scripts": []
+            "scripts": [
+
+           ]
           },
           "configurations": {
             "production": {
@@ -103,3 +106,6 @@
     "analytics": false
   }
 }
+
+
+
