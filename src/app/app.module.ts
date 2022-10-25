@@ -12,10 +12,10 @@ import { HeaderComponent } from './header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { SharedModule } from './shared/share.module';
 import { CoreModule } from './core.module';
-import * as fromApp from './store/app.reducer';
 import { AuthEffects } from './auth/store/auth.effects';
 import { environment } from '../environments/environment';
 import { RecipeEffects } from './recipes/store/recipe.effect';
+import * as fromApp from './store/app.reducer';
 
 @NgModule({
   declarations: [AppComponent, HeaderComponent],

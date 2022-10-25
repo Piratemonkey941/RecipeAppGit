@@ -4,7 +4,7 @@ import { Store } from '@ngrx/store';
 import { HttpClient } from '@angular/common/http';
 import { switchMap, map, withLatestFrom } from 'rxjs/operators';
 
-import * as RecipesActions from './recipe.action';
+import * as RecipesActions from './recipe.actions';
 import { Recipe } from '../recipe.model';
 import * as fromApp from '../../store/app.reducer';
 

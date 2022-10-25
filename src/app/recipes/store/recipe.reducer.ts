@@ -1,5 +1,5 @@
 import { Recipe } from '../recipe.model';
-import * as RecipesActions from './recipe.action';
+import * as RecipesActions from './recipe.actions';
 
 export interface State {
   recipes: Recipe[];

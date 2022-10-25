@@ -6,7 +6,7 @@ import { map } from 'rxjs/operators';
 import { Subscription } from 'rxjs';
 
 import * as fromApp from '../../store/app.reducer';
-import * as RecipesActions from '../store/recipe.action';
+import * as RecipesActions from '../store/recipe.actions';
 
 @Component({
   selector: 'app-recipe-edit',

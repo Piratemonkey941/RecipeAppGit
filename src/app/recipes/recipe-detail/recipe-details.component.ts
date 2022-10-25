@@ -5,7 +5,7 @@ import { map, switchMap } from 'rxjs/operators';
 
 import { Recipe } from '../recipe.model';
 import * as fromApp from '../../store/app.reducer';
-import * as RecipesActions from '../store/recipe.action';
+import * as RecipesActions from '../store/recipe.actions';
 import * as ShoppingListActions from '../../shopping-list-new/store/shopping-list.actions';
 
 @Component({

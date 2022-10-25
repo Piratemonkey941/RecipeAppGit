@@ -5,7 +5,7 @@ import { Store } from '@ngrx/store';
 
 import * as fromApp from '../store/app.reducer';
 import * as AuthActions from '../auth/store/auth.actions';
-import * as RecipeActions from '../recipes/store/recipe.action';
+import * as RecipeActions from '../recipes/store/recipe.actions';
 
 @Component({
   selector: 'app-header',

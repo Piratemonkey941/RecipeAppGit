@@ -11,7 +11,7 @@ import { of } from 'rxjs';
 
 import { Recipe } from './recipe.model';
 import * as fromApp from '../store/app.reducer';
-import * as RecipesActions from '../recipes/store/recipe.action';
+import * as RecipesActions from './store/recipe.actions';
 
 @Injectable({ providedIn: 'root' })
 
